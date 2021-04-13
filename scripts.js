@@ -65,9 +65,9 @@ function addImagem() {
       var musica = listaSingles[i].nome
       var html = "<img src=" + capa + ">"
       divSingles.innerHTML = divSingles.innerHTML + "<button onClick='videoNaTela(" + musica + ")'>" + html + "</button>"
-      }
     }
   }
+}
 
 
 
